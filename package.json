@@ -1,0 +1,28 @@
+{
+  "name": "valid-copyright",
+  "version": "1.0.0",
+  "description": "This package allows you to always have an up-to-date copyrighting.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qqax/valid-copyright.git"
+  },
+  "keywords": [
+    "copyright",
+    "npm",
+    "typescript"
+  ],
+  "author": "Alexander Kudryavtsev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qqax/valid-copyright/issues"
+  },
+  "homepage": "https://github.com/qqax/valid-copyright#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
