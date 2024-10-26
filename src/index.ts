@@ -2,7 +2,7 @@ export function copyright(firstYear: number, params?: {owner?: string, warning?:
     const currentYear: number = new Date().getFullYear();
 
     const yearString: string = firstYear < currentYear
-        ? `${firstYear.toString()} — ${currentYear.toString()}`
+        ? `${firstYear.toString()}–${currentYear.toString()}`
         : currentYear.toString();
 
     const trimmedCopyright: string = params?.owner
